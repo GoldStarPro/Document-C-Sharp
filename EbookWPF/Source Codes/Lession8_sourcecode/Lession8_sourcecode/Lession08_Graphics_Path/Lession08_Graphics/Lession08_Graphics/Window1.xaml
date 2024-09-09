@@ -1,0 +1,29 @@
+﻿<Window x:Class="Lession08_Graphics.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Vi du ve Shape" Height="319" Width="418">
+    <Canvas Height="280" Width="393" Background="AntiqueWhite">
+    <!-- Vẽ một Path gồm hai phần:
+        - Đường cong Bezier từ tọa độ (10,100) tới (300,100)
+        tọa độ hai điểm điều khiển là (100,0) và (200,200)
+        - Tại điểm kết thúc (300,100) vẽ một đường nằm ngang 
+        ngược về điểm khởi đầu.
+        -->
+    <Path
+          Data="M 10,100 C 100,0 200,200 300,100 z"
+          Stroke="Black"
+          StrokeThickness="4" />
+    <!-- Vẽ một Path các đỉnh Canvas 100 pixel gồm hai phần:
+        - Đường cong Bezier từ tọa độ (10,100) tới (300,100)
+        tọa độ hai điểm điều khiển là (100,0) và (200,200).
+        - Tại điểm kết thúc (300,100) vẽ một đường nằm ngang 
+        ngược về điểm có tọa độ X = 150.
+        -->
+    <Path
+          Data="M 10,100 C 100,0 200,200 300,100 H 150"
+          Stroke="Black"
+          StrokeThickness="4" 
+          Fill="Blue"
+          Canvas.Top="100"/>
+    </Canvas>
+</Window>

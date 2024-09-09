@@ -1,0 +1,42 @@
+﻿<Window x:Class="Lesson1.Window6"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Lesson1 - Grid" Height="300" Width="300"
+    >
+  <!---Sử dụng panel Grid có các cạnh cách lề 10 pixel và có hiển thị các đường kẻ ô-->
+  <Grid Margin="10" ShowGridLines="True">
+    <!--Định nghĩa thuộc tính cột - Có tổng cộng 2 cột-->
+    <Grid.ColumnDefinitions>
+      <!--Khai báo cột 0 - có chiều rộng tỉ lệ gấp đôi cột kế tiếp-->
+      <ColumnDefinition Width="2*" />
+      <!--Khai báo cột 1 - Thuộc tính ngầm định-->
+      <ColumnDefinition />      
+    </Grid.ColumnDefinitions>
+    <!--Định nghĩa thuộc tính hàng - Có tổng cộng 3 hàng -->
+    <Grid.RowDefinitions>
+      <!--Khai báo hàng 0 có chiều cao bằng 25 pixel-->
+      <RowDefinition Height="25" />
+      <!--Khai báo hàng 1 - Thuộc tính ngầm định -->
+      <RowDefinition />
+      <!--Khai báo hàng 2 - Đặt chiều cao gấp đôi hàng trước (hàng 1)-->
+      <RowDefinition  Height="2*"/>
+    </Grid.RowDefinitions>
+    <!--Đặt TextBlock 1 vào cột 0 hàng 0-->
+    <TextBlock FontSize="16" 
+               Foreground="#58290A"
+               Grid.Column="0" Grid.Row="0"               
+             >
+      Chú cào cào nhỏ
+    </TextBlock>
+    <!--Đặt Button vào vị trí cột 0 hàng 1-->
+    <Button Grid.Column="0" Grid.Row="1">
+      Control 2
+    </Button>
+    <!--Đặt Border vào vị trí cột 1 hàng 2-->
+    <Border BorderBrush="#feca00" BorderThickness="2"
+            Grid.Column="1" Grid.Row="2">
+      <TextBlock>Control 3</TextBlock>
+    </Border>
+  </Grid>
+ 
+</Window>

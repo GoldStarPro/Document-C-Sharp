@@ -1,0 +1,12 @@
+C:\Users\TMTRUONG\Documents\Visual Studio 2008\Projects\WpfControlSample1\WpfControlSample1\bin\Debug\WpfControlSample1.exe
+C:\Users\TMTRUONG\Documents\Visual Studio 2008\Projects\WpfControlSample1\WpfControlSample1\bin\Debug\WpfControlSample1.pdb
+C:\Users\TMTRUONG\Documents\Visual Studio 2008\Projects\WpfControlSample1\WpfControlSample1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\TMTRUONG\Documents\Visual Studio 2008\Projects\WpfControlSample1\WpfControlSample1\obj\Debug\Window1.baml
+C:\Users\TMTRUONG\Documents\Visual Studio 2008\Projects\WpfControlSample1\WpfControlSample1\obj\Debug\Window1.g.cs
+C:\Users\TMTRUONG\Documents\Visual Studio 2008\Projects\WpfControlSample1\WpfControlSample1\obj\Debug\App.g.cs
+C:\Users\TMTRUONG\Documents\Visual Studio 2008\Projects\WpfControlSample1\WpfControlSample1\obj\Debug\WpfControlSample1_MarkupCompile.cache
+C:\Users\TMTRUONG\Documents\Visual Studio 2008\Projects\WpfControlSample1\WpfControlSample1\obj\Debug\WpfControlSample1.g.resources
+C:\Users\TMTRUONG\Documents\Visual Studio 2008\Projects\WpfControlSample1\WpfControlSample1\obj\Debug\WpfControlSample1.Properties.Resources.resources
+C:\Users\TMTRUONG\Documents\Visual Studio 2008\Projects\WpfControlSample1\WpfControlSample1\obj\Debug\WpfControlSample1.csproj.GenerateResource.Cache
+C:\Users\TMTRUONG\Documents\Visual Studio 2008\Projects\WpfControlSample1\WpfControlSample1\obj\Debug\WpfControlSample1.exe
+C:\Users\TMTRUONG\Documents\Visual Studio 2008\Projects\WpfControlSample1\WpfControlSample1\obj\Debug\WpfControlSample1.pdb

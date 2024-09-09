@@ -1,0 +1,9 @@
+D:\works\WPF\msdn_sample\ContextMenuShared\xaml\bin\Debug\ContextMenu_wcp.exe
+D:\works\WPF\msdn_sample\ContextMenuShared\xaml\bin\Debug\ContextMenu_wcp.pdb
+D:\works\WPF\msdn_sample\ContextMenuShared\xaml\obj\Debug\ResolveAssemblyReference.cache
+D:\works\WPF\msdn_sample\ContextMenuShared\xaml\obj\Debug\Pane1.baml
+D:\works\WPF\msdn_sample\ContextMenuShared\xaml\obj\Debug\app.g.cs
+D:\works\WPF\msdn_sample\ContextMenuShared\xaml\obj\Debug\ContextMenu_wcp_MarkupCompile.cache
+D:\works\WPF\msdn_sample\ContextMenuShared\xaml\obj\Debug\ContextMenu_wcp.g.resources
+D:\works\WPF\msdn_sample\ContextMenuShared\xaml\obj\Debug\ContextMenu_wcp.exe
+D:\works\WPF\msdn_sample\ContextMenuShared\xaml\obj\Debug\ContextMenu_wcp.pdb

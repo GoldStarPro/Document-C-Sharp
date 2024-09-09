@@ -1,0 +1,37 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    SizeToContent="WidthAndHeight"  Title="Vi du Shared Context Menu"
+>
+  <Window.Resources>
+    <ContextMenu x:Key="ContextMenuChiase" x:Shared="True">
+      <MenuItem Header="Đậy là mục thực đơn có trạng thái" IsCheckable="True" />
+      <Separator/>
+      <MenuItem Header="Đây là mục thực đơn thông thường" />
+    </ContextMenu>
+  </Window.Resources>
+   <StackPanel Margin="5">
+      <TextBlock TextWrapping="WrapWithOverflow" Width="400" FontSize="12">
+        <Run  FontSize="24">Shared ContextMenu </Run>
+        <LineBreak/>
+        Có bốn điều khiển chia sẻ thực đơn ngữ cảnh.
+        x:Shared được gắn giá trị <Bold>True</Bold>, để cho phép các 
+          điều khiển chia sẻ ContextMenu. Bạn có thể thử bằng cách 
+          check vào mục thực đơn đầu tiên của một điều khiển
+          sau đó mở thực đơn ngữ cảnh ở các điều khiển khác để xem 
+          trạng thái của mục đầu tiên của mỗi thực đơn ngữ cảnh.
+      </TextBlock>
+      <Button Margin="0,5,0,0" Background="LightBlue"
+          Content="Nút bấm này có một ContextMenu"
+          ContextMenu="{DynamicResource ContextMenuChiase}" />
+      <Button Background="Pink"
+          Content="Nút bấm này sử dụng ContextMenu tương tự"
+          ContextMenu="{DynamicResource ContextMenuChiase}" />
+      <CheckBox BorderBrush="Red"
+          Content="Check Box sử dụng ContextMenu tương tự"
+          ContextMenu="{DynamicResource ContextMenuChiase}" />
+      <CheckBox BorderBrush="Green" 
+          Content="Check Box sử dụng ContextMenu tương tự"
+          ContextMenu="{DynamicResource ContextMenuChiase}" />
+    </StackPanel>
+</Window>

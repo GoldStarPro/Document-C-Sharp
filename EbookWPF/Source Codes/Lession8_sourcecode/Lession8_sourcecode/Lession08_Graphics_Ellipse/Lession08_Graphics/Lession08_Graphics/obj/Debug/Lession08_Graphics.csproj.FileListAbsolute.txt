@@ -1,0 +1,12 @@
+D:\works\WPF\msdn_sample\Graphics\Lession08_Graphics\Lession08_Graphics\bin\Debug\Lession08_Graphics.exe
+D:\works\WPF\msdn_sample\Graphics\Lession08_Graphics\Lession08_Graphics\bin\Debug\Lession08_Graphics.pdb
+D:\works\WPF\msdn_sample\Graphics\Lession08_Graphics\Lession08_Graphics\obj\Debug\ResolveAssemblyReference.cache
+D:\works\WPF\msdn_sample\Graphics\Lession08_Graphics\Lession08_Graphics\obj\Debug\Window1.baml
+D:\works\WPF\msdn_sample\Graphics\Lession08_Graphics\Lession08_Graphics\obj\Debug\Window1.g.cs
+D:\works\WPF\msdn_sample\Graphics\Lession08_Graphics\Lession08_Graphics\obj\Debug\App.g.cs
+D:\works\WPF\msdn_sample\Graphics\Lession08_Graphics\Lession08_Graphics\obj\Debug\Lession08_Graphics_MarkupCompile.cache
+D:\works\WPF\msdn_sample\Graphics\Lession08_Graphics\Lession08_Graphics\obj\Debug\Lession08_Graphics.g.resources
+D:\works\WPF\msdn_sample\Graphics\Lession08_Graphics\Lession08_Graphics\obj\Debug\Lession08_Graphics.Properties.Resources.resources
+D:\works\WPF\msdn_sample\Graphics\Lession08_Graphics\Lession08_Graphics\obj\Debug\Lession08_Graphics.csproj.GenerateResource.Cache
+D:\works\WPF\msdn_sample\Graphics\Lession08_Graphics\Lession08_Graphics\obj\Debug\Lession08_Graphics.exe
+D:\works\WPF\msdn_sample\Graphics\Lession08_Graphics\Lession08_Graphics\obj\Debug\Lession08_Graphics.pdb

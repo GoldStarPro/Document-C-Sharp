@@ -1,0 +1,50 @@
+﻿<Window x:Class="Lession08_Graphics.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Ví dụ chổi tô - Brush" Height="373" Width="372">
+    <Canvas Height="331" Width="343" Background="DimGray">
+        <!-- Tô hình chữ nhật bằng hình ảnh
+            File ảnh pinkcherries.jpg có kích thước 100x100 -->
+        <!-- Mặc định ảnh tự động co dãn trùng khít với hình
+            Do tỷ lệ chiều rộng và cao của vùng tô khác với tỷ lệ 
+            của ảnh nên sẽ bị méo hình -->
+        <Rectangle Canvas.Left="10" Canvas.Top="10" Height="200" Width="150" 
+                   Stroke="Black" >
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="sampleImages\pinkcherries.jpg" />
+            </Rectangle.Fill>
+        </Rectangle>
+        
+        <!-- Thuộc tính Stretch="None" để hiện thị ảnh với khích thước gốc, 
+            không tự co dãn -->
+        <Rectangle Canvas.Left="180" Canvas.Top="10" Height="150" Width="150" 
+                   Stroke="Black" >
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="sampleImages\pinkcherries.jpg" 
+                            Stretch="None" />
+            </Rectangle.Fill>
+        </Rectangle>
+        
+        <!-- Thuộc tính Stretch="Uniform" để co dãn ảnh khớp với vùng tô 
+            nhưng giữ tỷ lệ ảnh gốc-->
+        <Rectangle Canvas.Left="10" Canvas.Top="220" Height="100" Width="150" 
+                   Stroke="Black" >
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="sampleImages\pinkcherries.jpg" 
+                            Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        
+        <!-- Sử dụng thuộc tính Viewport để chỉ định khung nhìn cần tô 
+             Thuộc tính TileMode="FlipXY" để làm cho các khung nhìn 
+            tô kiểu xếp lợp đối xứng theo cả trục X và trục Y -->
+        <Rectangle Canvas.Left="180" Canvas.Top="170" Height="150" Width="150" 
+                   Stroke="Black" >
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="sampleImages\pinkcherries.jpg" 
+                            TileMode="FlipXY" 
+                            Viewport="0,0,25,25" ViewportUnits="Absolute" />
+            </Rectangle.Fill>
+        </Rectangle>
+    </Canvas>
+</Window>

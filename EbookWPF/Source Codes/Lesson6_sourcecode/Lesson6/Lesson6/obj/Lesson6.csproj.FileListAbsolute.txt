@@ -1,0 +1,17 @@
+C:\Documents and Settings\Do Viet Trung\My Documents\Visual Studio 2005\Projects\Lesson6\Lesson6\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Do Viet Trung\My Documents\Visual Studio 2005\Projects\Lesson6\Lesson6\obj\Debug\App.g.cs
+C:\Documents and Settings\Do Viet Trung\My Documents\Visual Studio 2005\Projects\Lesson6\Lesson6\obj\Debug\Lesson6_MarkupCompile.cache
+C:\Documents and Settings\Do Viet Trung\My Documents\Visual Studio 2005\Projects\Lesson6\Lesson6\bin\Debug\Lesson6.exe
+C:\Documents and Settings\Do Viet Trung\My Documents\Visual Studio 2005\Projects\Lesson6\Lesson6\bin\Debug\Lesson6.pdb
+C:\Documents and Settings\Do Viet Trung\My Documents\Visual Studio 2005\Projects\Lesson6\Lesson6\obj\Debug\Window1.baml
+C:\Documents and Settings\Do Viet Trung\My Documents\Visual Studio 2005\Projects\Lesson6\Lesson6\obj\Debug\Window1.g.cs
+C:\Documents and Settings\Do Viet Trung\My Documents\Visual Studio 2005\Projects\Lesson6\Lesson6\obj\Debug\Lesson6.g.resources
+C:\Documents and Settings\Do Viet Trung\My Documents\Visual Studio 2005\Projects\Lesson6\Lesson6\obj\Debug\Lesson6.Properties.Resources.resources
+C:\Documents and Settings\Do Viet Trung\My Documents\Visual Studio 2005\Projects\Lesson6\Lesson6\obj\Debug\Lesson6.csproj.GenerateResource.Cache
+C:\Documents and Settings\Do Viet Trung\My Documents\Visual Studio 2005\Projects\Lesson6\Lesson6\obj\Debug\Lesson6.exe
+C:\Documents and Settings\Do Viet Trung\My Documents\Visual Studio 2005\Projects\Lesson6\Lesson6\obj\Debug\Lesson6.pdb
+C:\Documents and Settings\Do Viet Trung\My Documents\Visual Studio 2005\Projects\Lesson6\Lesson6\obj\Debug\Window2.baml
+C:\Documents and Settings\Do Viet Trung\My Documents\Visual Studio 2005\Projects\Lesson6\Lesson6\obj\Debug\Window2.g.cs
+C:\Documents and Settings\Do Viet Trung\My Documents\Visual Studio 2005\Projects\Lesson6\Lesson6\obj\Debug\Window3.baml
+C:\Documents and Settings\Do Viet Trung\My Documents\Visual Studio 2005\Projects\Lesson6\Lesson6\obj\Debug\Window3.g.cs
+C:\Documents and Settings\Do Viet Trung\My Documents\Visual Studio 2005\Projects\Lesson6\Lesson6\obj\Debug\Lesson6_MarkupCompile.lref

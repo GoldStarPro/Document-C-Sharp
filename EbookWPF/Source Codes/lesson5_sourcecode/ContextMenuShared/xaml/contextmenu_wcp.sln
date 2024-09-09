@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "contextmenu_wcp", "contextmenu_wcp.csproj", "{E552DDB0-9083-44D4-95D6-90A1D21040BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E552DDB0-9083-44D4-95D6-90A1D21040BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E552DDB0-9083-44D4-95D6-90A1D21040BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

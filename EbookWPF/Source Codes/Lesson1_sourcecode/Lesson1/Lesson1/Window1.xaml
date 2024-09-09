@@ -1,0 +1,24 @@
+﻿<!--Khai báo khởi tạo cửa sổ-->
+<Window x:Class="Lesson1.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Lesson1 - StackPanel" Height="120" Width="280"
+    >
+  
+  <!--Sử dụng StackPanel sắp xếp ngầm định theo chiều dọc-->
+  <StackPanel Background="Beige" >
+    <!--Thiết lập thuộc tính khung viền bao quanh control 1-->  
+    <Border Width="200" BorderBrush="DarkSlateBlue" Background="#a9e969" BorderThickness="2">
+      <!--Khai báo control 1 dạng checkbox-->
+      <CheckBox>Control 1</CheckBox>
+    </Border>
+    <!--Khai báo control 2 dạng nút bấm-->
+    <Button Width="200">Control 2</Button>
+    <!--Thiết lập thuộc tính khung viền bao quanh control 3-->
+    <Border Width="200" BorderBrush="#feca00" BorderThickness="2">
+      <!--Khai báo control 3 dạng text-->
+      <TextBlock HorizontalAlignment="Right">Control 3</TextBlock>
+    </Border>
+  </StackPanel>
+  
+</Window>

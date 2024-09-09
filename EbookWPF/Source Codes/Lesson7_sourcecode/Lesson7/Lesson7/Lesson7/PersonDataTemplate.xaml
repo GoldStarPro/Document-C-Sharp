@@ -1,0 +1,47 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Lesson7" >
+
+  <!-- Resources needed for the Border -->
+  <ResourceDictionary.MergedDictionaries>
+    <ResourceDictionary Source="PersonBorderStyle.xaml" />
+  </ResourceDictionary.MergedDictionaries>
+
+  <!-- DataTemplate for a Person -->
+  <DataTemplate DataType="{x:Type local:Person}">
+    <DataTemplate.Resources>
+      <LinearGradientBrush x:Key="backBrush" StartPoint="0,0.5" EndPoint="1,0.5">
+        <GradientStop Color="#1100CC22" Offset="0" />
+        <GradientStop Color="#8800CC22" Offset="0.97" />
+        <GradientStop Color="#AA10FF18" Offset="0.999" />
+        <GradientStop Color="#44FFFFFF" Offset="1" />
+      </LinearGradientBrush>
+      <local:PersonImageConverter x:Key="imageConverter" />
+    </DataTemplate.Resources>
+
+    <!-- Rectangle around a Person-object -->
+    <Border x:Name="personsBorder" Style="{StaticResource PersonBorderStyle}">
+      <Grid>
+        <StackPanel Orientation="Horizontal">
+
+          <!-- Person's image -->
+          <Image Width="40" Height="40" 
+                 Source="{Binding Path=ImageRef, 
+                        Converter={StaticResource imageConverter}}">
+            <Image.BitmapEffect>
+              <DropShadowBitmapEffect />
+            </Image.BitmapEffect>
+
+          </Image>
+
+          <!-- Person's name -->
+          <TextBlock x:Name="personName" 
+                     Text="{Binding Name}"  
+                     Padding="15,15"
+                     Foreground="Black" />
+
+        </StackPanel>
+      </Grid>
+    </Border>
+  </DataTemplate>
+</ResourceDictionary>

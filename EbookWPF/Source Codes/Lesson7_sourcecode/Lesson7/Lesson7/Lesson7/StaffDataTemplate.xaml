@@ -1,0 +1,33 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Lesson7" >
+
+  <!-- Định nghĩa cách thức hiển thị cho mỗi mục dữ liệu nhân viên -->
+  <DataTemplate DataType="{x:Type local:Person}">
+    <DataTemplate.Resources>
+      <!--Khai báo một đối tượng chuyển đổi đường dẫn ảnh thành ảnh-->
+      <local:PersonImageConverter x:Key="imageConverter" />
+    </DataTemplate.Resources>
+
+    
+    <StackPanel Background="Orange" Orientation="Horizontal">
+          <!-- Hiển thị Hình ảnh -->
+          <Image Margin="10" Width="60" Height="60" 
+                 Source="{Binding Path=ImageRef, 
+                        Converter={StaticResource imageConverter}}">
+            <Image.BitmapEffect>
+              <DropShadowBitmapEffect />
+            </Image.BitmapEffect>
+
+          </Image>
+
+          <!-- Hiển thị Tên -->
+          <TextBlock x:Name="personName" 
+                     Text="{Binding Name}"  
+                     Padding="15,15"
+                     Foreground="Black" />
+
+    </StackPanel>
+          
+  </DataTemplate>
+</ResourceDictionary>

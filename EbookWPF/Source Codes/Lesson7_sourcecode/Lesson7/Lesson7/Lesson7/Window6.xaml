@@ -1,0 +1,22 @@
+﻿<Window x:Class="Lesson7.Window6"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Lesson7 - Style Test" Height="300" Width="300"
+    >
+  
+  
+    <StackPanel>
+      <StackPanel.Resources>
+        <Style TargetType="{x:Type Control}">
+          <Setter Property="FontStyle" Value="Italic" />
+        </Style>      
+      </StackPanel.Resources>
+      
+      <ListBox Height="60" >
+        <ListBoxItem>A</ListBoxItem>
+        <ListBoxItem>B</ListBoxItem>
+        <ListBoxItem>C</ListBoxItem>
+      </ListBox>
+      <TextBox Text="A B C"></TextBox>
+    </StackPanel>
+</Window>

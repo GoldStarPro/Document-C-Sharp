@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextMenuApp1", "ContextMenuApp1\ContextMenuApp1.csproj", "{AF88C9F4-95E2-435B-BA54-8F9AEC9A9151}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF88C9F4-95E2-435B-BA54-8F9AEC9A9151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF88C9F4-95E2-435B-BA54-8F9AEC9A9151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF88C9F4-95E2-435B-BA54-8F9AEC9A9151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF88C9F4-95E2-435B-BA54-8F9AEC9A9151}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
